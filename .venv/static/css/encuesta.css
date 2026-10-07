@@ -1,0 +1,17 @@
+div{
+    border-bottom: 1px solid gray;
+}
+
+.contenedor{
+    display: flex;
+    gap: 10px;
+}
+
+.destacar{
+    border: 1px solid black;
+    box-shadow: 4px 4px 0px 1px black;
+}
+
+.subrayar{
+    border-bottom: 1px gray;
+}
