@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validacion</title>
+</head>
+<body>
+    <h1>Validacion de solo letras</h1>
+    <label>Escribir solo letras</label>
+    <input type="text" id="letra" placeholder="nombre">
+    <button onclick="Letras()">Validar letras</button>
+
+    <h1>Validacion de solo numeros</h1>
+    <label>Escribir solo numeros</label>
+    <input type="text" id="numero" placeholder="numeros">
+    <button onclick="Numeros()">Validar numeros</button>
+
+
+    <script>
+        function Letras(){
+            let dato = document.getElementById("letra").value;
+            alert(/^[a-zA-Z]+$/.test(dato));
+        }
+        function Numeros(){
+            let dato = document.getElementById("numero").value;
+            alert(/^[0-9]+$/.test(dato));
+        }
+    </script>
+</body>
+</html>

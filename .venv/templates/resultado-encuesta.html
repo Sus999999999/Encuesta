@@ -7,27 +7,146 @@
     <link rel="stylesheet" href="{{url_for('static', filename='css/encuesta.css')}}">
 </head>
 <body>
-    <div>
-        <h1>Universidad Del Norte de Guanajuato</h1>
+
+    <div class="header">
+        <div class="date">15/02/2007</div>
+        <h1>UNIVERSIDAD DEL NORTE DE GUANAJUATO</h1>
     </div>
-    <div>
-        <header class="contenedor">
-            <div>
-                <h3>Grupo</h3>
-                <h3 class="destacar">"GRUPO"</h3>
-            </div>
 
-            <div>
-                <h3>Profesor</h3>
-                <h3 class="destacar">"NOMBRE DEL PROFESOR"</h3>
-            </div>
-
-            <div>
-                <h3>Materia</h3>
-                <h3 class="destacar">"MATERIA"</h3>
-            </div>
-
-        </header>
+    <div class="info-section">
+        <div class="info-row">
+            <span class="label">Grupo:</span>
+            <span class="value box">GSI0252</span>
+        </div>
+        <div class="info-row">
+            <span class="label">Profesor:</span>
+            <span class="value box">Verónica Hernández Monzón</span>
+        </div>
+        <div class="info-row">
+            <span class="label">Materia:</span>
+            <span class="value box">Idioma Extranjero</span>
+        </div>
     </div>
-</body>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="alum-col">Alum</th>
+                <th>P1</th><th>P2</th><th>P3</th><th>P4</th><th>P5</th><th>P6</th><th>P7</th><th>P8</th><th>P9</th><th>P10</th><th>P11</th><th>P12</th>
+                <th class="prom-col">Promedio X<br>Alumno</th>
+                <th>Comentarios</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="center">1</td>
+                <td>9</td><td>9</td><td>9</td><td>9</td><td>9</td><td>9</td><td>9</td><td>9</td><td>8</td><td>8</td><td>8</td><td>8</td>
+                <td class="center">8.7</td>
+                <td>Que proporcione más ejercicios</td>
+            </tr>
+            <tr>
+                <td class="center">2</td>
+                <td>10</td><td>10</td><td>9</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>9</td><td>9</td><td>10</td><td>10</td>
+                <td class="center">9.8</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="center">3</td>
+                <td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td>
+                <td class="center">10.0</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="center">4</td>
+                <td>9</td><td>8</td><td>9</td><td>9</td><td>9</td><td>8</td><td>8</td><td>10</td><td>10</td><td>9</td><td>8</td><td>8</td>
+                <td class="center">8.8</td>
+                <td>Que proporcione más ejercicios</td>
+            </tr>
+            <tr>
+                <td class="center">5</td>
+                <td>9</td><td>9</td><td>9</td><td>9</td><td>9</td><td>9</td><td>8</td><td>9</td><td>9</td><td>9</td><td>9</td><td>8</td>
+                <td class="center">8.8</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="center">6</td>
+                <td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td>
+                <td class="center">10.0</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="center">7</td>
+                <td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td>
+                <td class="center">10.0</td>
+                <td>siga asi, es una excelente profesora</td>
+            </tr>
+            <tr>
+                <td class="center">8</td>
+                <td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>9</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td>
+                <td class="center">9.9</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="center">9</td>
+                <td>9</td><td>9</td><td>9</td><td>9</td><td>9</td><td>9</td><td>9</td><td>9</td><td>9</td><td>9</td><td>9</td><td>9</td>
+                <td class="center">9.0</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="center">10</td>
+                <td>9</td><td>10</td><td>9</td><td>9</td><td>9</td><td>9</td><td>9</td><td>10</td><td>10</td><td>10</td><td>9</td><td>10</td>
+                <td class="center">9.3</td>
+                <td>Que brinde ayuda extra clase</td>
+            </tr>
+            <tr>
+                <td class="center">11</td>
+                <td>9</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>9</td><td>8</td><td>8</td><td>9</td>
+                <td class="center">8.3</td>
+                <td>Que sea más dinámica la clase</td>
+            </tr>
+            <tr>
+                <td class="center">12</td>
+                <td>10</td><td>9</td><td>9</td><td>9</td><td>10</td><td>9</td><td>9</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td>
+                <td class="center">9.6</td>
+                <td>Que no avance tan rápido</td>
+            </tr>
+            <tr>
+                <td class="center">13</td>
+                <td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>9</td><td>10</td><td>10</td><td>10</td><td>9</td><td>9</td>
+                <td class="center">9.8</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="center">14</td>
+                <td>10</td><td>10</td><td>9</td><td>10</td><td>9</td><td>10</td><td>10</td><td>9</td><td>10</td><td>10</td><td>10</td><td>10</td>
+                <td class="center">9.8</td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="center">Promedio X Pregunta</td>
+                <td class="center">9.6</td>
+                <td class="center">9.4</td>
+                <td class="center">9.3</td>
+                <td class="center">9.4</td>
+                <td class="center">9.4</td>
+                <td class="center">9.3</td>
+                <td class="center">9.2</td>
+                <td class="center">9.5</td>
+                <td class="center">9.5</td>
+                <td class="center">9.5</td>
+                <td class="center">9.3</td>
+                <td class="center">9.4</td>
+                <td colspan="2"></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="footer-summary">
+        <div class="general-average-box">
+            <span class="avg-number">9.4</span>
+            <span class="avg-label">Promedio General</span>
+        </div>
+    </div>
 </html>
